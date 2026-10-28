@@ -1,0 +1,127 @@
+{
+  "source": "PaddlePaddle/PaddleOCR release/2.7 paddleocr.py MODEL_URLS",
+  "languages": {
+    "Chinese": {
+      "recognition": "ch_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/ppocr_keys_v1.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/ppocr_keys_v1.txt",
+      "rec_img_h": 48
+    },
+    "Korean": {
+      "recognition": "korean_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/korean_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/korean_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/korean_dict.txt",
+      "rec_img_h": 48
+    },
+    "Japanese": {
+      "recognition": "japan_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/japan_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/japan_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/japan_dict.txt",
+      "rec_img_h": 48
+    },
+    "Latin": {
+      "recognition": "latin_PP-OCRv3_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv3/multilingual/latin_PP-OCRv3_rec_infer.tar",
+      "dictionary": "keys/latin_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/latin_dict.txt",
+      "rec_img_h": 48
+    },
+    "Arabic": {
+      "recognition": "arabic_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/arabic_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/arabic_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/arabic_dict.txt",
+      "rec_img_h": 48
+    },
+    "Cyrillic": {
+      "recognition": "cyrillic_PP-OCRv3_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv3/multilingual/cyrillic_PP-OCRv3_rec_infer.tar",
+      "dictionary": "keys/cyrillic_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/cyrillic_dict.txt",
+      "rec_img_h": 48
+    },
+    "Devanagari": {
+      "recognition": "devanagari_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/devanagari_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/devanagari_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/devanagari_dict.txt",
+      "rec_img_h": 48
+    },
+    "Telugu": {
+      "recognition": "te_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/te_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/te_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/te_dict.txt",
+      "rec_img_h": 48
+    },
+    "Kannada": {
+      "recognition": "ka_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/ka_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/ka_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/ka_dict.txt",
+      "rec_img_h": 48
+    },
+    "Tamil": {
+      "recognition": "ta_PP-OCRv4_rec_infer",
+      "url": "https://paddleocr.bj.bcebos.com/PP-OCRv4/multilingual/ta_PP-OCRv4_rec_infer.tar",
+      "dictionary": "keys/ta_dict.txt",
+      "dictionary_url": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/release/2.7/ppocr/utils/dict/ta_dict.txt",
+      "rec_img_h": 48
+    }
+  },
+  "shared_models": [
+    "https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar",
+    "https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar"
+  ],
+  "sha256": {
+    "arabic_PP-OCRv4_rec_infer/inference.pdiparams": "b388bf744151963a21b9ee9c60b4624ba90976ae5f1f1b023e594032b16ce40f",
+    "arabic_PP-OCRv4_rec_infer/inference.pdiparams.info": "710d9f3d7c503067ae708f4bc3adc6973c0d6391adb7a1470c36eb70da6b5b83",
+    "arabic_PP-OCRv4_rec_infer/inference.pdmodel": "c9a2f2e222937a934c5c23fd95dbba5b62a3f6d822a14f86cf8b3e9b93632c64",
+    "ch_PP-OCRv4_det_infer/inference.pdiparams": "49ee815e30cff43cb1057d33bf0d94193e4d4f1ae28451cad15b40be830df915",
+    "ch_PP-OCRv4_det_infer/inference.pdiparams.info": "4e0f29e5fa476126f9efe0dc69f7ca7be960705ad549385d30c9604193463e69",
+    "ch_PP-OCRv4_det_infer/inference.pdmodel": "2ad68ed2768fe6c41166a5bc64680cc9f445390acb6528da449a4db2f7b90e14",
+    "ch_PP-OCRv4_rec_infer/inference.pdiparams": "a6dbfa63e7ee161688523c954e9e293f77dc24044db81e836ff9c7f103fd191a",
+    "ch_PP-OCRv4_rec_infer/inference.pdiparams.info": "0706cc669bdce382f582c139906076b170b112c51bf32573fe43438025777f12",
+    "ch_PP-OCRv4_rec_infer/inference.pdmodel": "bf78f3898a004615e69c676259d8171bd7ae99000653b41fd72aaa36ae8bd304",
+    "ch_ppocr_mobile_v2.0_cls_infer/inference.pdiparams": "d1efda1b80e174b4fcb168a035ac96c1af4938892bd86a55f300a6027105d08c",
+    "ch_ppocr_mobile_v2.0_cls_infer/inference.pdiparams.info": "ee0c2eaa4c09814802bf520c01dfdbc1345dc2879dc9e67424d32c7b0ee88e59",
+    "ch_ppocr_mobile_v2.0_cls_infer/inference.pdmodel": "3c4337ec61722a20b1dca2e5bfaffc313c0592bc89ad6e0d45168224186f6683",
+    "cyrillic_PP-OCRv3_rec_infer/inference.pdiparams": "2ef815afbb8970610618561946ce86faf60745ada64cd316ed34bfe34bdbf46f",
+    "cyrillic_PP-OCRv3_rec_infer/inference.pdiparams.info": "cf79f0b9689b4d6b8094d8bfe2481dc4b4d1699adb622568384695b5f56dc600",
+    "cyrillic_PP-OCRv3_rec_infer/inference.pdmodel": "377bee205d0ba2d401cb463c300366ab87b2373b45dd9c8e3b560166b064beee",
+    "devanagari_PP-OCRv4_rec_infer/inference.pdiparams": "3effa6613d040b79aac36699a3c97fe835fc91791db2010d614cc9ffb08ee415",
+    "devanagari_PP-OCRv4_rec_infer/inference.pdiparams.info": "710d9f3d7c503067ae708f4bc3adc6973c0d6391adb7a1470c36eb70da6b5b83",
+    "devanagari_PP-OCRv4_rec_infer/inference.pdmodel": "854c6d41d186be07588f3cd4ced044270ad96afd7f31ee4f63a70e1d3714a9d1",
+    "japan_PP-OCRv4_rec_infer/inference.pdiparams": "e6e9b7395bb8476e85a15776aa09445c483778c06a512921cbc9ba81c6a2719a",
+    "japan_PP-OCRv4_rec_infer/inference.pdiparams.info": "710d9f3d7c503067ae708f4bc3adc6973c0d6391adb7a1470c36eb70da6b5b83",
+    "japan_PP-OCRv4_rec_infer/inference.pdmodel": "d3339a79fa88863f639a00cd57e973cc278fa46c3eb369b88cb24bb06c96b89d",
+    "ka_PP-OCRv4_rec_infer/inference.pdiparams": "580fe5bc0a45956569bc63bda99b27f33505f20e519fa43517d1d5b9bcbb029b",
+    "ka_PP-OCRv4_rec_infer/inference.pdiparams.info": "710d9f3d7c503067ae708f4bc3adc6973c0d6391adb7a1470c36eb70da6b5b83",
+    "ka_PP-OCRv4_rec_infer/inference.pdmodel": "bb23a7045f9f03c414f727c75752660d51760f02da2023e258bcc014f585f8e8",
+    "keys/arabic_dict.txt": "637c27c88512c22089bef927b34ada08f748dc132ac70facd68d8202384c2726",
+    "keys/cyrillic_dict.txt": "369a82c6c8c479784a5d726448b83b1eafb5fef0a4129a5eaa3929625ddcd132",
+    "keys/devanagari_dict.txt": "b5f1be6d8bbff1a19fb96c5d4ca96a423380234bb7d2ce0e07b5838adb4d18ea",
+    "keys/japan_dict.txt": "1dcfcb41eec90576a945b3084f22ade11ced506e24f14879245b071698f308e8",
+    "keys/ka_dict.txt": "fad3f765943275eec2134a6fbc9b52785426641104d4e7db3a159dc73f341dde",
+    "keys/korean_dict.txt": "aa1fdc8ae8f7cd40a0ec4edb472eb0421e11427e6ccfee9915440742c18b0a20",
+    "keys/latin_dict.txt": "8e6d4e3629788c35c31f7e530287d6147b549bb7a265bd6708bb281134429e2c",
+    "keys/ppocr_keys_v1.txt": "28b2362ad4ab2dc38769aa72feb535e3a9ddb3fd2a7585a05920e6393b1dc7f7",
+    "keys/ta_dict.txt": "e93e694814afd9ff1e918b6f4bb4267fb4c65a9344ee5d7464f9135b90c0a270",
+    "keys/te_dict.txt": "ee9946a60d7701977474e89883694a4ca20eaa3868a23334bf7940dcd008f0f9",
+    "korean_PP-OCRv4_rec_infer/inference.pdiparams": "ea4f4762582336e9b85653b016c5b1091223c947fafd282161fa3145ecb72d1d",
+    "korean_PP-OCRv4_rec_infer/inference.pdiparams.info": "533380ead7fe161fc32ac0bdc966e65c18c0d9d1a16088736c4aa3c628701374",
+    "korean_PP-OCRv4_rec_infer/inference.pdmodel": "992eed58af98ed6125065027e52fbc69b570e6c2e74610ec240e8a2436151ada",
+    "latin_PP-OCRv3_rec_infer/inference.pdiparams": "fa6f22a8b2a669c7d5b4dfd2607491abd4cd2467adf7077c9cc70ce8c47b61d9",
+    "latin_PP-OCRv3_rec_infer/inference.pdiparams.info": "cf79f0b9689b4d6b8094d8bfe2481dc4b4d1699adb622568384695b5f56dc600",
+    "latin_PP-OCRv3_rec_infer/inference.pdmodel": "23e11a537d8cd7ebab669a9e48fb12f49c295ca9ecde398c6b5460830bd174b8",
+    "ta_PP-OCRv4_rec_infer/inference.pdiparams": "b0ae170098a2f706de3c60496f5730b5ea4afe1d6e679a67ab6f89aa1018ffde",
+    "ta_PP-OCRv4_rec_infer/inference.pdiparams.info": "533380ead7fe161fc32ac0bdc966e65c18c0d9d1a16088736c4aa3c628701374",
+    "ta_PP-OCRv4_rec_infer/inference.pdmodel": "42ddd121b43ab9ef399e59705bcde6c56891a531c6df87a467aa99c5db54926f",
+    "te_PP-OCRv4_rec_infer/inference.pdiparams": "6efc7c74d4ff86b4187ece2f3b4f6ecd775c3a780b82d27d39a9c506d6e9eb42",
+    "te_PP-OCRv4_rec_infer/inference.pdiparams.info": "533380ead7fe161fc32ac0bdc966e65c18c0d9d1a16088736c4aa3c628701374",
+    "te_PP-OCRv4_rec_infer/inference.pdmodel": "f07501e6a3e96aa065ed5a656c8aee5bff9694ac8cb51826178dd4f34e884333"
+  }
+}

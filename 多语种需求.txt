@@ -1,0 +1,6 @@
+我的代码  formload时候已经规划好多语种的switch  现在需要你做几件事：
+1 下载对应的多语种 并和我代码里定义的匹配好  路径放到根目录下的文件夹模型文件夹里    https://aistudio.baidu.com/modelsdetail/17/download这是多语种模型的下载地址 只要推理模型就行了应该  
+2  根据我提供的这个github代码使用方法 修正我的项目  项目逻辑不要变   https://github.com/raoyutian/PaddleOCRSharp/blob/master/doc/UseInCsharp.md
+3  下载这些语种对应的keys字典   
+
+三项结合起来修改
